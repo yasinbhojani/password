@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: #222;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    background-color: #eee;
+    border-radius: 15px;
+}
+form {
+    text-align: center;
+}
+form input {
+    margin: 7px 0;
+    width: 200px;
+    border: 1px solid black;    
+    background: transparent;
+    border-radius: 3px;
+    padding: 10px 12px;
+    font-size: 1rem;
+}
+form button {
+    width: 106px;
+    margin: 7px 5px;
+    font-size: 1rem;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: 0.2s background-color;
+}
+form button:hover{
+    background-color: #AAA;
+}
+#content{
+    color: black;
+    font-size: 0.9rem;
+}
