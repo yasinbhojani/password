@@ -3,14 +3,15 @@ const btn = document.querySelector('#btn')
 const submit = document.querySelector('#submit')
 const content = document.querySelector('#content')
 const clear = document.querySelector('#clear')
+const btnImg = document.querySelector('#btn-icon')
 
 btn.addEventListener('click', () => {
     if (input.getAttribute('type') === 'password') {
         input.setAttribute('type', 'text')
-        btn.textContent = 'Hide'
+        btnImg.setAttribute('src', './src/show.png')
     } else if (input.getAttribute('type') === 'text') {
         input.setAttribute('type', 'password')
-        btn.textContent = 'View'
+        btnImg.setAttribute('src', './src/hide.png')
     }
 })
 
